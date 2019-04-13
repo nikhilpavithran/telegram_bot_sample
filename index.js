@@ -15,7 +15,7 @@ app.get('/', function(req, res) {
 })
 
 function sendMessage(chat_id, message){
-  axios.post('https://api.telegram.org/721920584:AAHpAE5JJpGZWwzQ6VPY7iawve7qe1morA0/sendMessage', {
+  axios.post('https://api.telegram.org/bot721920584:AAHpAE5JJpGZWwzQ6VPY7iawve7qe1morA0/sendMessage', {
     chat_id: chat_id,
     text: message
   })
